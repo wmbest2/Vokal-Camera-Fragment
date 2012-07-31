@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <fragment
+        class="com.vokal.camera.CameraFragment"
+        android:id="@+id/camera_surface"
+        android:tag="CameraFragment"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+    <FrameLayout
+        android:id="@+id/camera_interface"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+</RelativeLayout>
+

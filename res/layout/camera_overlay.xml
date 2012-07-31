@@ -1,0 +1,32 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_overlay"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/button_group"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="14dip"
+        android:background="#ffcccccc"
+        >
+        <Button
+            android:id="@+id/shutter"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="    "
+            />
+        <CheckBox
+            android:id="@+id/flash"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dip"
+            android:text="Flash"
+            />
+    </RelativeLayout>
+</RelativeLayout>
